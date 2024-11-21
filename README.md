@@ -83,7 +83,7 @@ Saya sangat menyambut kontribusi dari Anda! Jika Anda ingin berkontribusi ke dal
 
 👤 Pembuat
 Muhammad Fazriansyah | mas4ji
-Bug Hunter & Cyber security enthusiasts
+Bug Hunter
 
 ## 📱 Hubungi Saya:
 <p align="left">
