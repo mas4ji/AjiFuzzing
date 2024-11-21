@@ -9,13 +9,13 @@
   </a>
 </p>
 
-`NucleiFuzzer` adalah alat otomatisasi yang menggabungkan `ParamSpider` dan `Nuclei` untuk meningkatkan pengujian keamanan aplikasi web. Alat ini menggunakan `ParamSpider` untuk mengidentifikasi titik masuk yang potensial dan template fuzzing `Nuclei` untuk memindai kerentanannya. `NucleiFuzzer` menyederhanakan proses ini, sehingga memudahkan profesional keamanan dan pengembang web untuk mendeteksi dan menangani risiko keamanan dengan lebih efisien. Unduh `NucleiFuzzer` untuk melindungi aplikasi web Anda dari kerentanannya dan serangan.
+`AjiFuzzing` adalah alat otomatisasi yang menggabungkan `ParamSpider` dan `Nuclei` untuk meningkatkan pengujian keamanan aplikasi web. Alat ini menggunakan `ParamSpider` untuk mengidentifikasi titik masuk yang potensial dan template fuzzing `Nuclei` untuk memindai kerentanannya. `AjiFuzzing` menyederhanakan proses ini, sehingga memudahkan profesional keamanan dan pengembang web untuk mendeteksi dan menangani risiko keamanan dengan lebih efisien. Unduh `AjiFuzzing` untuk melindungi aplikasi web Anda dari kerentanannya dan serangan.
 
-**Catatan:** `Nuclei` + `Paramspider` = `NucleiFuzzer`  
-**Penting:** Pastikan alat `Nuclei`, `httpx`, dan `Paramspider` telah diinstal dan berjalan dengan benar di mesin Anda agar dapat menggunakan `NucleiFuzzer` tanpa masalah.
+**Catatan:** `Nuclei` + `Paramspider` = `AjiFuzzing`  
+**Penting:** Pastikan alat `Nuclei`, `httpx`, dan `Paramspider` telah diinstal dan berjalan dengan benar di mesin Anda agar dapat menggunakan `AjiFuzzing` tanpa masalah.
 
 ### Alat yang disertakan:
-- [ParamSpider](https://github.com/0xKayala/ParamSpider): `git clone https://github.com/0xKayala/ParamSpider.git`  
+- [ParamSpider](https://github.com/0xKayala/ParamSpider): `git clone https://github.com/devanshbatham/ParamSpider`  
 - [Nuclei](https://github.com/projectdiscovery/nuclei): `git clone https://github.com/projectdiscovery/nuclei.git`
 
 ### Template:
