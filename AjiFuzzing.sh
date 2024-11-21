@@ -2,6 +2,7 @@
 
 # Kode warna ANSI
 MERAH='\033[91m'
+HIJAU='\033[92m'
 RESET='\033[0m'
 
 # Seni ASCII
@@ -39,13 +40,13 @@ ekstensi_dikecualikan="png,jpg,gif,jpeg,swf,woff,svg,pdf,json,css,js,webp,woff,w
 # Instalasi dependensi jika belum terinstal
 instal_dependensi() {
     # Periksa apakah Nuclei terinstal
-    if ! command -v nuclei -up &> /dev/null; then
+    if ! command -v nuclei &> /dev/null; then
         echo "Menginstal Nuclei..."
         go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
     fi
 
     # Periksa apakah httpx terinstal
-    if ! command -v httpx -up &> /dev/null; then
+    if ! command -v httpx &> /dev/null; then
         echo "Menginstal httpx..."
         go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
     fi
@@ -65,7 +66,7 @@ instal_dependensi() {
     # Instalasi Amass
     if ! command -v amass &> /dev/null; then
         echo "Menginstal Amass..."
-        sudo apt-get install amass
+        sudo apt-get install -y amass
     fi
 
     # Instalasi Dirsearch
@@ -77,7 +78,7 @@ instal_dependensi() {
     # Instalasi Nmap
     if ! command -v nmap &> /dev/null; then
         echo "Menginstal Nmap..."
-        sudo apt-get install nmap
+        sudo apt-get install -y nmap
     fi
 
     # Instalasi Corsy
@@ -181,7 +182,7 @@ periksa_x_frame_options() {
     if [[ -z "$header" ]]; then
         echo -e "${MERAH}Header X-Frame-Options tidak ditemukan.${RESET} Situs ini mungkin rentan terhadap clickjacking!"
     else
-        echo -e "${GREEN}Header X-Frame-Options ditemukan: $header${RESET}"
+        echo -e "${HIJAU}Header X-Frame-Options ditemukan: $header${RESET}"
     fi
 }
 
@@ -192,7 +193,7 @@ periksa_csp() {
     if [[ -z "$header" ]]; then
         echo -e "${MERAH}Header Content-Security-Policy tidak ditemukan.${RESET} Situs ini mungkin rentan terhadap clickjacking!"
     else
-        echo -e "${GREEN}Header Content-Security-Policy ditemukan: $header${RESET}"
+        echo -e "${HIJAU}Header Content-Security-Policy ditemukan: $header${RESET}"
     fi
 }
 
