@@ -39,7 +39,7 @@ Opsi:
   -h, --help              Menampilkan informasi bantuan
   -d, --domain <domain>   Domain untuk memindai kerentanannya seperti XSS, SQLi, SSRF, Open-Redirect, dll.
   -f, --file <filename>   File yang berisi beberapa domain/URL untuk dipindai
-
+```
 
 ## Installation:
 
