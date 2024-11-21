@@ -7,63 +7,63 @@
 <a href="https://github.com/mas4ji/AjiFuzzing/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
 </p>
 
-`NucleiFuzzer` is an automation tool that combines `ParamSpider` and `Nuclei` to enhance web application security testing. It uses `ParamSpider` to identify potential entry points and `Nuclei` fuzzing templates to scan for vulnerabilities. `NucleiFuzzer` streamlines the process, making it easier for security professionals and web developers to detect and address security risks efficiently. Download `NucleiFuzzer` to protect your web applications from vulnerabilities and attacks.
+`NucleiFuzzer` adalah alat otomatisasi yang menggabungkan `ParamSpider` dan `Nuclei` untuk meningkatkan pengujian keamanan aplikasi web. Alat ini menggunakan `ParamSpider` untuk mengidentifikasi titik masuk yang potensial dan template fuzzing `Nuclei` untuk memindai kerentanannya. `NucleiFuzzer` menyederhanakan proses ini, sehingga memudahkan profesional keamanan dan pengembang web untuk mendeteksi dan menangani risiko keamanan dengan lebih efisien. Unduh `NucleiFuzzer` untuk melindungi aplikasi web Anda dari kerentanannya dan serangan.
 
-**Note:** `Nuclei` + `Paramspider` = `NucleiFuzzer` <br><br>
-**Important:** Make sure the tools `Nuclei`, `httpx` & `Paramspider` are installed on your machine and executing correctly to use the `NucleiFuzzer` without any issues.
+**Catatan:** `Nuclei` + `Paramspider` = `NucleiFuzzer` <br><br>
+**Penting:** Pastikan alat `Nuclei`, `httpx` & `Paramspider` telah diinstal dan berjalan dengan benar di mesin Anda agar dapat menggunakan `NucleiFuzzer` tanpa masalah.
 
-### Tools included:
+### Alat yang disertakan:
 [ParamSpider](https://github.com/0xKayala/ParamSpider) `git clone https://github.com/0xKayala/ParamSpider.git`<br><br>
 [Nuclei](https://github.com/projectdiscovery/nuclei) `git clone https://github.com/projectdiscovery/nuclei.git`
 
-### Templates:
+### Template:
 [Fuzzing Templates](https://github.com/mas4ji/fuzzing-templates)
 
-## Screenshot
+## Tangkapan Layar
 ![image](https://github.com/0xKayala/NucleiFuzzer/assets/16838353/d29d18e2-e5b4-4f5f-b1fd-351167fa7c31)
 
 
-## Usage
+## Penggunaan
 
 ```sh
 aji -h
-```
 
 This will display help for the tool. Here are the options it supports.
 
 ```console
-AjiFuzzing is a Powerful Automation tool for detecting XSS, SQLi, SSRF, Open-Redirect, etc. vulnerabilities in Web Applications
+AjiFuzzing adalah alat otomatisasi yang kuat untuk mendeteksi kerentanannya seperti XSS, SQLi, SSRF, Open-Redirect, dll. pada aplikasi web.
 
-Usage: /usr/bin/nf [options]
+Penggunaan: /usr/bin/nf [opsi]
 
-Options:
-  -h, --help              Display help information
-  -d, --domain <domain>   Domain to scan for XSS, SQLi, SSRF, Open-Redirect..etc vulnerabilities
-  -f, --file <filename>   File containing multiple domains/URLs to scan
+Opsi:
+  -h, --help              Menampilkan informasi bantuan
+  -d, --domain <domain>   Domain untuk memindai kerentanannya seperti XSS, SQLi, SSRF, Open-Redirect, dll.
+  -f, --file <filename>   File yang berisi beberapa domain/URL untuk dipindai
+
 ```  
 
 ## Installation:
 
-To install `NucleiFuzzer`, follow these steps:
+To install `AjiFuzzing`, follow these steps:
 
 ```
-git clone https://github.com/mas4ji/AjiFuzzing.git && cd NucleiFuzzer && sudo chmod +x install.sh && ./install.sh && nf -h && cd ..
+git clone https://github.com/mas4ji/AjiFuzzing.git && cd AjiFuzzing && sudo chmod +x install.sh && ./install.sh && nf -h && cd ..
 ```
 
 ## Examples:
 
 Here are a few examples of how to use NucleiFuzzer:
 
-- Run `NucleiFuzzer` on a single domain:
+- Run `AjiFuzzing` on a single domain:
 
   ```sh
-  nf -d example.com
+  aji -d example.com
   ```
 
-- Run `NucleiFuzzer` on multiple domains from a file:
+- Run `AjiFuzzing` on multiple domains from a file:
 
   ```sh
-  nf -f file.txt
+  aji -f file.txt
   ```
 
 ## Practical Demonstration:
