@@ -76,10 +76,10 @@ Berikut adalah beberapa contoh penggunaan **AjiFuzzing**:
 ## 🤝 Berkontribusi
 Saya sangat menyambut kontribusi dari Anda! Jika Anda ingin berkontribusi ke dalam proyek AjiFuzzing, ikuti langkah-langkah berikut:
 
-Fork repository ini.
-Buat cabang baru (branch).
-Lakukan perubahan dan commit.
-Kirim pull request.
+- Fork repository ini.
+- Buat cabang baru (branch).
+- Lakukan perubahan dan commit.
+- Kirim pull request.
 
 ##👤 Pembuat
 Muhammad Fazriansyah | mas4ji
@@ -88,7 +88,8 @@ Bug Hunter & Cyber security enthusiasts
 ## 📱 Hubungi Saya:
 <p align="left">
   <a href="https://linkedin.com/in/mas4ji" target="blank">
-    <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2013.png" alt="mas4ji" height="30" width="40" />
+    <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2013.png" alt="LinkedIn mas4ji" height="30" width="40" />
+    LinkedIn
   </a>
 </p>
 
