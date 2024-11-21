@@ -46,14 +46,13 @@ Untuk mendapatkan bantuan dan informasi lebih lanjut mengenai perintah yang ters
 aji -h
 
 Ini akan menampilkan informasi bantuan dengan opsi berikut:
-
 Opsi:
 -h, --help: Menampilkan informasi bantuan.
 -d, --domain <domain>: Memindai kerentanannya pada domain (misalnya XSS, SQLi, SSRF, Open-Redirect, dll.).
 -f, --file <filename>: File yang berisi daftar domain/URL untuk dipindai.
-
+---
 ## 📥 Instalasi
-Untuk menginstal AjiFuzzing, ikuti langkah-langkah berikut:
+- Untuk menginstal AjiFuzzing, ikuti langkah-langkah berikut:
 git clone https://github.com/mas4ji/AjiFuzzing.git && cd AjiFuzzing && sudo chmod +x install.sh && ./install.sh && nf -h && cd ..
 Langkah ini akan mengkloning repository, memberikan izin eksekusi pada skrip instalasi, dan menjalankan instalasi. 
 ---
