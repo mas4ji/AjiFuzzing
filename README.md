@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  AjiFuzzing = Tools Fuzzing Bug Hunting
+  AjiFuzzing = Tools Fuzzing For Bug Hunting
   <br>
 </h1>
 
