@@ -40,7 +40,7 @@ excluded_extentions="png,jpg,gif,jpeg,swf,woff,svg,pdf,json,css,js,webp,woff,wof
 # Memeriksa apakah ParamSpider sudah terpasang
 if [ ! -d "$home_dir/ParamSpider" ]; then
     echo "Meng-clone ParamSpider..."
-    git clone https://github.com/0xKayala/ParamSpider "$home_dir/ParamSpider"
+    git clone https://github.com/mas4ji/ParamSpider "$home_dir/ParamSpider"
 fi
 
 # Memeriksa apakah template Nuclei sudah terpasang
