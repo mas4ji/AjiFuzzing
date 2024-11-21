@@ -88,15 +88,21 @@ Bug Hunter & Cyber security enthusiasts
 ## 📱 Hubungi Saya:
 <p align="left">
   <a href="https://linkedin.com/in/mas4ji" target="blank">
-    <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2013.png" alt="LinkedIn mas4ji" height="30" width="40" />
+    <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2013.png" alt="LinkedIn" height="30" width="40" />
     LinkedIn
   </a>
 </p>
 
-
+---
 
 ## 💖 Dukung Saya:
 Jika Anda merasa proyek ini bermanfaat dan ingin mendukung, Anda bisa melakukannya melalui BuyMeACoffee:
 
-<p><a href="https://www.buymeacoffee.com/mas4ji"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="mas4ji" /></a></p><br><br>
+<p align="center">
+  <a href="https://www.buymeacoffee.com/mas4ji">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Dukung Saya" />
+  </a>
+</p>
+
 Terima kasih telah menggunakan AjiFuzzing. Semoga alat ini membantu Anda dalam menjaga keamanan aplikasi web!
+
