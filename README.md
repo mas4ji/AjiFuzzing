@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  AjiFuzzing = Nuclei + Paramspider
+  AjiFuzzing = Tools Fuzzing Bug Hunting
   <br>
 </h1>
 
