@@ -21,15 +21,15 @@ Pastikan Anda telah menginstal dan mengonfigurasi `Nuclei`, `httpx`, dan `Params
 ---
 
 ### 🔧 Alat yang Digunakan:
-- **[ParamSpider](https://github/)**  
+- **ParamSpider*  
   `git clone https://github.com/mas4ji/ParamSpider`
 
-- **[Nuclei](https://github.com/projectdiscovery/nuclei)**  
+- **Nuclei**  
   `git clone https://github.com/projectdiscovery/nuclei.git`
 
 ### 📑 Template:
-- **[Fuzzing Templates](https://github.com/)**
-    `git clone https://github.com/mas4ji/fuzzing-templates`
+- **Fuzzing Templates**
+  `git clone https://github.com/mas4ji/fuzzing-templates`
 ---
 
 ## 📸 Tangkapan Layar
