@@ -9,90 +9,89 @@
   </a>
 </p>
 
-`AjiFuzzing` adalah alat otomatisasi yang menggabungkan `ParamSpider` dan `Nuclei` untuk meningkatkan pengujian keamanan aplikasi web. Alat ini menggunakan `ParamSpider` untuk mengidentifikasi titik masuk yang potensial dan template fuzzing `Nuclei` untuk memindai kerentanannya. `AjiFuzzing` menyederhanakan proses ini, sehingga memudahkan profesional keamanan dan pengembang web untuk mendeteksi dan menangani risiko keamanan dengan lebih efisien. Unduh `AjiFuzzing` untuk melindungi aplikasi web Anda dari kerentanannya dan serangan.
+## 🛠️ Apa itu AjiFuzzing?
 
-**Catatan:** `Nuclei` + `Paramspider` = `AjiFuzzing`  
-**Penting:** Pastikan alat `Nuclei`, `httpx`, dan `Paramspider` telah diinstal dan berjalan dengan benar di mesin Anda agar dapat menggunakan `AjiFuzzing` tanpa masalah.
+`AjiFuzzing` adalah alat otomatisasi keamanan aplikasi web yang menggabungkan dua alat powerful: `ParamSpider` dan `Nuclei`. Alat ini dirancang untuk memudahkan pengujian kerentanannya di aplikasi web, seperti XSS, SQLi, SSRF, Open-Redirect, dan lainnya.
 
-### Alat yang disertakan:
-- [ParamSpider](https://github.com/0xKayala/ParamSpider): `git clone https://github.com/devanshbatham/ParamSpider`  
-- [Nuclei](https://github.com/projectdiscovery/nuclei): `git clone https://github.com/projectdiscovery/nuclei.git`
+Dengan menggunakan `ParamSpider`, AjiFuzzing mengidentifikasi titik masuk potensial, dan menggunakan template fuzzing `Nuclei` untuk memindai kerentanannya. Alat ini menyederhanakan dan mempercepat proses pengujian keamanan, memungkinkan profesional keamanan dan pengembang web untuk mendeteksi dan menangani risiko dengan lebih efisien.
 
-### Template:
-- [Fuzzing Templates](https://github.com/mas4ji/fuzzing-templates)
+**Catatan Penting:**  
+Pastikan Anda telah menginstal dan mengonfigurasi `Nuclei`, `httpx`, dan `Paramspider` di mesin Anda sebelum menggunakan `AjiFuzzing`.
 
-## Tangkapan Layar
+---
+
+### 🔧 Alat yang Digunakan:
+- **[ParamSpider](https://github.com/0xKayala/ParamSpider)**  
+  `git clone https://github.com/devanshbatham/ParamSpider`
+
+- **[Nuclei](https://github.com/projectdiscovery/nuclei)**  
+  `git clone https://github.com/projectdiscovery/nuclei.git`
+
+### 📑 Template:
+- **[Fuzzing Templates](https://github.com/mas4ji/fuzzing-templates)**
+
+---
+
+## 📸 Tangkapan Layar
+
 ![Tangkapan Layar](https://github.com/0xKayala/NucleiFuzzer/assets/16838353/d29d18e2-e5b4-4f5f-b1fd-351167fa7c31)
 
-## Penggunaan
+---
+
+## 🖥️ Penggunaan
+
+Untuk mendapatkan bantuan dan informasi lebih lanjut mengenai perintah yang tersedia di AjiFuzzing, gunakan:
 
 ```sh
 aji -h
 
-Ini akan menampilkan informasi bantuan untuk alat ini. Berikut adalah opsi yang didukung:
-
-AjiFuzzing adalah alat otomatisasi yang kuat untuk mendeteksi kerentanannya seperti XSS, SQLi, SSRF, Open-Redirect, dll. pada aplikasi web.
-
-Penggunaan: /usr/bin/nf [opsi]
+Ini akan menampilkan informasi bantuan dengan opsi berikut:
 
 Opsi:
-  -h, --help              Menampilkan informasi bantuan
-  -d, --domain <domain>   Domain untuk memindai kerentanannya seperti XSS, SQLi, SSRF, Open-Redirect, dll.
-  -f, --file <filename>   File yang berisi beberapa domain/URL untuk dipindai
-```
+-h, --help: Menampilkan informasi bantuan.
+-d, --domain <domain>: Memindai kerentanannya pada domain (misalnya XSS, SQLi, SSRF, Open-Redirect, dll.).
+-f, --file <filename>: File yang berisi daftar domain/URL untuk dipindai.
+📥 Instalasi
+Untuk menginstal AjiFuzzing, ikuti langkah-langkah berikut:
 
-## Installation:
-
-To install `AjiFuzzing`, follow these steps:
-
-```
+sh
+Copy code
 git clone https://github.com/mas4ji/AjiFuzzing.git && cd AjiFuzzing && sudo chmod +x install.sh && ./install.sh && nf -h && cd ..
-```
+Langkah ini akan mengkloning repository, memberikan izin eksekusi pada skrip instalasi, dan menjalankan instalasi.
 
-## Examples:
+🧪 Contoh Penggunaan
+Berikut adalah beberapa contoh penggunaan AjiFuzzing:
 
-Here are a few examples of how to use NucleiFuzzer:
+Memindai domain tunggal:
+sh
+Copy code
+aji -d example.com
+Memindai beberapa domain dari sebuah file:
+sh
+Copy code
+aji -f file.txt
+🎥 Demonstrasi Praktis
+Untuk melihat demonstrasi praktis penggunaan AjiFuzzing, tonton video di bawah ini:
 
-- Run `AjiFuzzing` on a single domain:
+<img src="https://img.youtube.com/vi/2K2gTCHt6kg/hqdefault.jpg" width="600" height="300"/>
 
-  ```sh
-  aji -d example.com
-  ```
+⭐️ Star History
 
-- Run `AjiFuzzing` on multiple domains from a file:
+🤝 Berkontribusi
+Kami sangat menyambut kontribusi dari Anda! Jika Anda ingin berkontribusi ke dalam proyek AjiFuzzing, ikuti langkah-langkah berikut:
 
-  ```sh
-  aji -f file.txt
-  ```
+Fork repository ini.
+Buat cabang baru (branch).
+Lakukan perubahan dan commit.
+Kirim pull request.
+👤 Pembuat
+Satya Prakash | 0xKayala
+Seorang Peneliti Keamanan dan Pemburu Bug.
 
-## Practical Demonstration:
+📱 Hubungi Saya:
+<p align="left"> <a href="https://linkedin.com/in/mas4ji" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-/assets/linkedin.png" alt="mas4ji" height="30" width="40" /></a> </p>
+💖 Dukung Saya:
+Jika Anda merasa proyek ini bermanfaat dan ingin mendukung, Anda bisa melakukannya melalui BuyMeACoffee:
 
-For a Practical Demonstration of the NucleiFuzzer tool see the below video 👇 <br>
-
-[<img src="https://img.youtube.com/vi/2K2gTCHt6kg/hqdefault.jpg" width="600" height="300"/>](https://www.youtube.com/embed/2K2gTCHt6kg)
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=0xKayala/NucleiFuzzer&type=Date)](https://star-history.com/#0xKayala/NucleiFuzzer&Date)
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to `NucleiFuzzer`, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes and commit them.
-4. Submit a pull request.
-
-Made by
-`Satya Prakash` | `0xKayala` \
-
-A `Security Researcher` and `Bug Hunter` \
-
-## Connect with me:
-<p align="left">
-<a href="https://linkedin.com/in/mas4ji" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-
-</p>
-
-## Support me:
-<p><a href="https://www.buymeacoffee.com/mas4ji"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="0xKayala" /></a></p><br><br>
+<p><a href="https://www.buymeacoffee.com/mas4ji"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="mas4ji" /></a></p><br><br>
+Terima kasih telah menggunakan AjiFuzzing. Semoga alat ini membantu Anda dalam menjaga keamanan aplikasi web!
