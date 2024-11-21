@@ -88,9 +88,10 @@ Bug Hunter & Cyber security enthusiasts
 ## 📱 Hubungi Saya:
 <p align="left">
   <a href="https://linkedin.com/in/mas4ji" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-/assets/linkedin.png" alt="mas4ji" height="30" width="40" />
+    <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2013.png" alt="mas4ji" height="30" width="40" />
   </a>
 </p>
+
 
 
 ## 💖 Dukung Saya:
