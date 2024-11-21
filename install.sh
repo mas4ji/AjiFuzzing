@@ -2,9 +2,9 @@
 
 # Menyalin dan memindahkan file AjiFuzzer.sh ke /usr/bin/aji
 if [ -f "AjiFuzzer.sh" ]; then
-    sudo cp AjiFuzzing.sh /usr/bin/aji
+    sudo cp AjiFuzzer.sh /usr/bin/aji
 else
-    echo "File AjiFuzzing.sh tidak ditemukan!"
+    echo "File AjiFuzzer.sh tidak ditemukan!"
     exit 1
 fi
 
