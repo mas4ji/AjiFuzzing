@@ -62,22 +62,19 @@ git clone https://github.com/mas4ji/AjiFuzzing.git && cd AjiFuzzing && sudo chmo
 ```
 
 ## 🧪 Contoh Penggunaan
-Berikut adalah beberapa contoh penggunaan AjiFuzzing:
 
-Memindai domain tunggal:
-aji -d example.com
-Memindai beberapa domain dari sebuah file:
-aji -f file.txt
+Berikut adalah beberapa contoh penggunaan **AjiFuzzing**:
 
-## 🎥 Demonstrasi Praktis
-Untuk melihat demonstrasi praktis penggunaan AjiFuzzing, tonton video di bawah ini:
+- **Memindai domain tunggal:**
+  ```bash
+  aji -d example.com
 
-<img src="https://img.youtube.com/vi/2K2gTCHt6kg/hqdefault.jpg" width="600" height="300"/>
-
-## ⭐️ Star History
+- ** Memindai beberapa domain dari sebuah file:**
+  ```bash
+  aji -f file.txt
 
 ## 🤝 Berkontribusi
-Kami sangat menyambut kontribusi dari Anda! Jika Anda ingin berkontribusi ke dalam proyek AjiFuzzing, ikuti langkah-langkah berikut:
+Saya sangat menyambut kontribusi dari Anda! Jika Anda ingin berkontribusi ke dalam proyek AjiFuzzing, ikuti langkah-langkah berikut:
 
 Fork repository ini.
 Buat cabang baru (branch).
@@ -85,8 +82,8 @@ Lakukan perubahan dan commit.
 Kirim pull request.
 
 ##👤 Pembuat
-Satya Prakash | 0xKayala
-Seorang Peneliti Keamanan dan Pemburu Bug.
+Muhammad Fazriansyah | mas4ji
+Bug Hunter & Cyber security enthusiasts
 
 ## 📱 Hubungi Saya:
 <p align="left"> <a href="https://linkedin.com/in/mas4ji" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-/assets/linkedin.png" alt="mas4ji" height="30" width="40" /></a> </p>
