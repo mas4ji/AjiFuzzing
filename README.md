@@ -21,7 +21,7 @@ Pastikan Anda telah menginstal dan mengonfigurasi `Nuclei`, `httpx`, dan `Params
 ---
 
 ### 🔧 Alat yang Digunakan:
-- **ParamSpider*  
+- **ParamSpider** 
   `git clone https://github.com/mas4ji/ParamSpider`
 
 - **Nuclei**  
