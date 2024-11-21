@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # ANSI color codes
-RED='\033[91m'
+GREEN='\033[92m'
 RESET='\033[0m'
 
-# ASCII art
+# ASCII art with color
 echo -e "${GREEN}"
 cat << "EOF"
 
@@ -58,12 +58,6 @@ fi
 if ! command -v httpx &> /dev/null; then
     echo "Menginstal httpx..."
     go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-fi
-
-# Memeriksa apakah uro sudah terpasang
-if ! command -v uro &> /dev/null; then
-    echo "Menginstal uro..."
-    pip3 install uro
 fi
 
 # Parsing argumen baris perintah
@@ -126,10 +120,10 @@ echo "Menjalankan Nuclei pada URL yang dikumpulkan"
 temp_file=$(mktemp)
 if [ -n "$domain" ]; then
     # Menggunakan file sementara untuk menyimpan URL yang sudah diurutkan dan unik
-    sort "output/$domain.yaml" | uro > "$temp_file"
+    sort "output/$domain.yaml" > "$temp_file"
     httpx -silent -mc 200,301,302,403 -l "$temp_file" | nuclei -t "$home_dir/nuclei-templates" -dast -rl 05
 elif [ -n "$filename" ]; then
-    sort "$output_file" | uro > "$temp_file"
+    sort "$output_file" > "$temp_file"
     httpx -silent -mc 200,301,302,403 -l "$temp_file" | nuclei -t "$home_dir/nuclei-templates" -dast -rl 05
 fi
 rm "$temp_file"  # Menghapus file sementara
