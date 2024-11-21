@@ -50,45 +50,44 @@ Opsi:
 -h, --help: Menampilkan informasi bantuan.
 -d, --domain <domain>: Memindai kerentanannya pada domain (misalnya XSS, SQLi, SSRF, Open-Redirect, dll.).
 -f, --file <filename>: File yang berisi daftar domain/URL untuk dipindai.
----
+```
 ## 📥 Instalasi
 - Untuk menginstal AjiFuzzing, ikuti langkah-langkah berikut:
 git clone https://github.com/mas4ji/AjiFuzzing.git && cd AjiFuzzing && sudo chmod +x install.sh && ./install.sh && nf -h && cd ..
 Langkah ini akan mengkloning repository, memberikan izin eksekusi pada skrip instalasi, dan menjalankan instalasi. 
 ---
 
-🧪 Contoh Penggunaan
+## 🧪 Contoh Penggunaan
 Berikut adalah beberapa contoh penggunaan AjiFuzzing:
 
 Memindai domain tunggal:
-sh
-Copy code
 aji -d example.com
 Memindai beberapa domain dari sebuah file:
-sh
-Copy code
 aji -f file.txt
-🎥 Demonstrasi Praktis
+
+## 🎥 Demonstrasi Praktis
 Untuk melihat demonstrasi praktis penggunaan AjiFuzzing, tonton video di bawah ini:
 
 <img src="https://img.youtube.com/vi/2K2gTCHt6kg/hqdefault.jpg" width="600" height="300"/>
 
-⭐️ Star History
+## ⭐️ Star History
 
-🤝 Berkontribusi
+## 🤝 Berkontribusi
 Kami sangat menyambut kontribusi dari Anda! Jika Anda ingin berkontribusi ke dalam proyek AjiFuzzing, ikuti langkah-langkah berikut:
 
 Fork repository ini.
 Buat cabang baru (branch).
 Lakukan perubahan dan commit.
 Kirim pull request.
-👤 Pembuat
+
+##👤 Pembuat
 Satya Prakash | 0xKayala
 Seorang Peneliti Keamanan dan Pemburu Bug.
 
-📱 Hubungi Saya:
+## 📱 Hubungi Saya:
 <p align="left"> <a href="https://linkedin.com/in/mas4ji" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-/assets/linkedin.png" alt="mas4ji" height="30" width="40" /></a> </p>
-💖 Dukung Saya:
+
+## 💖 Dukung Saya:
 Jika Anda merasa proyek ini bermanfaat dan ingin mendukung, Anda bisa melakukannya melalui BuyMeACoffee:
 
 <p><a href="https://www.buymeacoffee.com/mas4ji"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="mas4ji" /></a></p><br><br>
