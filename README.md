@@ -4,33 +4,33 @@
 </h1>
 
 <p align="center">
-<a href="https://github.com/mas4ji/AjiFuzzing/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+  <a href="https://github.com/mas4ji/AjiFuzzing/issues">
+    <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions Welcome">
+  </a>
 </p>
 
 `NucleiFuzzer` adalah alat otomatisasi yang menggabungkan `ParamSpider` dan `Nuclei` untuk meningkatkan pengujian keamanan aplikasi web. Alat ini menggunakan `ParamSpider` untuk mengidentifikasi titik masuk yang potensial dan template fuzzing `Nuclei` untuk memindai kerentanannya. `NucleiFuzzer` menyederhanakan proses ini, sehingga memudahkan profesional keamanan dan pengembang web untuk mendeteksi dan menangani risiko keamanan dengan lebih efisien. Unduh `NucleiFuzzer` untuk melindungi aplikasi web Anda dari kerentanannya dan serangan.
 
-**Catatan:** `Nuclei` + `Paramspider` = `NucleiFuzzer` <br><br>
-**Penting:** Pastikan alat `Nuclei`, `httpx` & `Paramspider` telah diinstal dan berjalan dengan benar di mesin Anda agar dapat menggunakan `NucleiFuzzer` tanpa masalah.
+**Catatan:** `Nuclei` + `Paramspider` = `NucleiFuzzer`  
+**Penting:** Pastikan alat `Nuclei`, `httpx`, dan `Paramspider` telah diinstal dan berjalan dengan benar di mesin Anda agar dapat menggunakan `NucleiFuzzer` tanpa masalah.
 
 ### Alat yang disertakan:
-[ParamSpider](https://github.com/0xKayala/ParamSpider) `git clone https://github.com/0xKayala/ParamSpider.git`<br><br>
-[Nuclei](https://github.com/projectdiscovery/nuclei) `git clone https://github.com/projectdiscovery/nuclei.git`
+- [ParamSpider](https://github.com/0xKayala/ParamSpider): `git clone https://github.com/0xKayala/ParamSpider.git`  
+- [Nuclei](https://github.com/projectdiscovery/nuclei): `git clone https://github.com/projectdiscovery/nuclei.git`
 
 ### Template:
-[Fuzzing Templates](https://github.com/mas4ji/fuzzing-templates)
+- [Fuzzing Templates](https://github.com/mas4ji/fuzzing-templates)
 
 ## Tangkapan Layar
-![image](https://github.com/0xKayala/NucleiFuzzer/assets/16838353/d29d18e2-e5b4-4f5f-b1fd-351167fa7c31)
-
+![Tangkapan Layar](https://github.com/0xKayala/NucleiFuzzer/assets/16838353/d29d18e2-e5b4-4f5f-b1fd-351167fa7c31)
 
 ## Penggunaan
 
 ```sh
 aji -h
 
-This will display help for the tool. Here are the options it supports.
+Ini akan menampilkan informasi bantuan untuk alat ini. Berikut adalah opsi yang didukung:
 
-```console
 AjiFuzzing adalah alat otomatisasi yang kuat untuk mendeteksi kerentanannya seperti XSS, SQLi, SSRF, Open-Redirect, dll. pada aplikasi web.
 
 Penggunaan: /usr/bin/nf [opsi]
@@ -40,7 +40,6 @@ Opsi:
   -d, --domain <domain>   Domain untuk memindai kerentanannya seperti XSS, SQLi, SSRF, Open-Redirect, dll.
   -f, --file <filename>   File yang berisi beberapa domain/URL untuk dipindai
 
-```  
 
 ## Installation:
 
