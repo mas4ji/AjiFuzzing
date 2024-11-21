@@ -34,7 +34,7 @@ Pastikan Anda telah menginstal dan mengonfigurasi `Nuclei`, `httpx`, dan `Params
 
 ## 📸 Tangkapan Layar
 
-![Tangkapan Layar](https://github.com/0xKayala/NucleiFuzzer/assets/16838353/d29d18e2-e5b4-4f5f-b1fd-351167fa7c31)
+![Tangkapan Layar](https://github.com/mas4ji/AjiFuzzing/blob/main/aji.png)
 
 ---
 
