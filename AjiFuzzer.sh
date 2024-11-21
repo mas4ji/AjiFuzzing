@@ -2,9 +2,10 @@
 
 # ANSI color codes
 GREEN='\033[92m'
+RED='\033[91m'
 RESET='\033[0m'
 
-# ASCII art with color
+# ASCII art with color (for Green and Red)
 echo -e "${GREEN}"
 cat << "EOF"
 
