@@ -61,19 +61,17 @@ Untuk menginstal **AjiFuzzing**, ikuti langkah-langkah berikut:
 git clone https://github.com/mas4ji/AjiFuzzing.git && cd AjiFuzzing && sudo chmod +x install.sh && ./install.sh && sudo chmod +x /usr/bin/aji && aji -h && cd ..
 ```
 
-## 🧪 Contoh Penggunaan
+## 🧪 Contoh Penggunaan  
 
-Berikut adalah beberapa contoh penggunaan **AjiFuzzing**:
+Berikut adalah beberapa contoh penggunaan **AjiFuzzing**:  
 
-- **Memindai domain tunggal:**
-  ```bash
-  aji -d example.com
+```bash
+# Memindai domain tunggal
+aji -d example.com
 
+# Memindai beberapa domain dari sebuah file
+aji -f file.txt
 
-- ** Memindai beberapa domain dari sebuah file:**
-  ```bash
-  aji -f file.txt
-```
 
 ```
 ## 📱 Hubungi Saya:
