@@ -58,7 +58,7 @@ Opsi:
 Untuk menginstal **AjiFuzzing**, ikuti langkah-langkah berikut:
 
 ```bash
-git clone https://github.com/mas4ji/AjiFuzzing.git && cd AjiFuzzing && sudo chmod +x install.sh && ./install.sh && aji -h && cd ..
+git clone https://github.com/mas4ji/AjiFuzzing.git && cd AjiFuzzing && sudo chmod +x install.sh && ./install.sh && sudo chmod +x /usr/bin/aji && aji -h && cd ..
 ```
 
 ## 🧪 Contoh Penggunaan
