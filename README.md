@@ -11,9 +11,9 @@
 
 ## 🛠️ Apa itu AjiFuzzing?
 
-`AjiFuzzing` adalah alat otomatisasi keamanan aplikasi web yang menggabungkan dua alat powerful: `ParamSpider` dan `Nuclei`. Alat ini dirancang untuk memudahkan pengujian kerentanannya di aplikasi web, seperti XSS, SQLi, SSRF, Open-Redirect, dan lainnya.
+`AjiFuzzing` adalah alat otomatisasi untuk pengujian keamanan web yang dirancang untuk mendeteksi kerentanan pada aplikasi web, seperti XSS, SQLi, SSRF, Open-Redirect, dan lainnya.
 
-Dengan menggunakan `ParamSpider`, AjiFuzzing mengidentifikasi titik masuk potensial, dan menggunakan template fuzzing `Nuclei` untuk memindai kerentanannya. Alat ini menyederhanakan dan mempercepat proses pengujian keamanan, memungkinkan profesional keamanan dan pengembang web untuk mendeteksi dan menangani risiko dengan lebih efisien.
+Alat ini menggabungkan kemampuan `ParamSpider` untuk menemukan titik masuk potensial (parameter) dengan template fuzzing dari Nuclei guna memindai kerentanannya. Dengan `AjiFuzzing`, proses pengujian keamanan menjadi lebih mudah dan cepat, sehingga memudahkan profesional keamanan dan pengembang untuk mengidentifikasi serta mengatasi risiko keamanan secara efisien.
 
 **Catatan Penting:**  
 Pastikan Anda telah menginstal dan mengonfigurasi `Nuclei`, `httpx`, dan `Paramspider` di mesin Anda sebelum menggunakan `AjiFuzzing`.
