@@ -73,17 +73,6 @@ Berikut adalah beberapa contoh penggunaan **AjiFuzzing**:
   ```bash
   aji -f file.txt
 
-## 🤝 Berkontribusi
-Saya sangat menyambut kontribusi dari Anda! Jika Anda ingin berkontribusi ke dalam proyek AjiFuzzing, ikuti langkah-langkah berikut:
-
-- Fork repository ini.
-- Buat cabang baru (branch).
-- Lakukan perubahan dan commit.
-- Kirim pull request.
-
-👤 Pembuat
-Muhammad Fazriansyah | mas4ji
-Bug Hunter
 
 ## 📱 Hubungi Saya:
 <p align="left">
