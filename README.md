@@ -16,12 +16,12 @@
 Alat ini menggabungkan kemampuan `ParamSpider` untuk menemukan titik masuk potensial (parameter) dengan template fuzzing dari Nuclei guna memindai kerentanannya. Dengan `AjiFuzzing`, proses pengujian keamanan menjadi lebih mudah dan cepat, sehingga memudahkan profesional keamanan dan pengembang untuk mengidentifikasi serta mengatasi risiko keamanan secara efisien.
 
 **Catatan Penting:**  
-Pastikan Anda telah menginstal dan mengonfigurasi `Nuclei`, `httpx`, dan `Paramspider` di mesin Anda sebelum menggunakan `AjiFuzzing`.
+Pastikan Anda telah menginstal dan mengonfigurasi `Nuclei` `Uro` dan `httpx` di mesin Anda sebelum menggunakan `AjiFuzzing`.
 
 ---
 
 ### 🔧 Alat yang Digunakan:
-- **ParamSpider** 
+- **ParamSpider Wajib** 
   `git clone https://github.com/mas4ji/ParamSpider`
 
 - **Nuclei**  
