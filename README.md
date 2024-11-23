@@ -69,11 +69,13 @@ Berikut adalah beberapa contoh penggunaan **AjiFuzzing**:
   ```bash
   aji -d example.com
 
+
 - ** Memindai beberapa domain dari sebuah file:**
   ```bash
   aji -f file.txt
+```
 
-
+```
 ## 📱 Hubungi Saya:
 <p align="left">
   <a href="https://linkedin.com/in/mas4ji" target="blank">
